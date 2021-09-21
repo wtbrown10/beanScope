@@ -13,6 +13,7 @@ public class Application {
 
             System.out.println("Car 1: " + car1);
             System.out.println("Car 2: " + car2);
+        System.out.println("*********");
 
 
             ((AnnotationConfigApplicationContext)ctx).close();
