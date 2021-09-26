@@ -10,6 +10,7 @@ public class Application {
 
             Car car1 = ctx.getBean(Car.class);
             Car car2 = ctx.getBean(Car.class);
+            Car car3 = ctx.getBean(Car.class);
 
             System.out.println("Car 1: " + car1);
             System.out.println("Car 2: " + car2);
